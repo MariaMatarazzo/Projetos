@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #eed8a7;
+    color: #333;
+    padding-top: 90px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #be7650;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 120px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li {
+    margin: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #a87c5b;
+    border-radius: 5px;
+}
+
+.menu ul li a:hover {
+    background-color: #8a6849;
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f3e1c7;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.personagem img {
+    width: 150px;
+}
+
+.balao {
+    background-color: #f0d6b4;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.balao p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.conteudo {
+    background-color: #e4c49b;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo h2 {
+    margin-bottom: 10px;
+    color: #a87c5b;
+}
+
+.conteudo p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.videos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.videos video {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.galeria img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    background-color: #d8b888;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
